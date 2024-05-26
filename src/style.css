@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+} 
+body {
+    background-color: black;
+    color: rgb(201, 201, 201);
+}
+p {
+    margin-bottom: 0;
+}
+.textcard {
+    padding-left: 4%;
+    border-radius: 10px 0 0 10px;
+    border-left: solid 15px #572796;
+    box-shadow:0 0 30px #2b2b2b;
+}
+.textcard:hover {
+    border-color: beige;
+
+}
+.burgertbtn{
+    background-color: #602ba6 !important;
+    border: none !important;
+}
+.link3 {
+    border:solid 2px #ffffff;
+}
+.burgerlink{
+    display: none;
+}
+.burgar {
+    margin-bottom: 12px;
+    width: 30px;
+    height: 30px;
+}
+.header {
+    top: 0;
+    left: 0;
+    background-color: #602ba6;
+    border: solid 2px #572796;
+    border-radius: 0 0 20px 20px;
+    box-shadow:0 0 20px #9e5df1;
+    position: fixed;
+}
+.mom {
+    border: solid 5px #602ba6;
+    border-radius:  15px 15px;
+    box-shadow:0 0 30px #9e5df1;
+    background-color: rgb(22, 22, 22);
+}
+.add-btn {
+    background-color: #602ba6;
+    border-radius: 5px;
+    border: solid 4px #572796;
+}
+.add-btn:hover {
+    background-color: #572796;
+    border-radius: 5px;
+    border: solid 4px #ffffff;
+}
+.access {
+    margin-top: 15%;
+}
+@media only screen and (max-width: 600px) {
+p {
+    margin-bottom: 0;
+    font-size: 9px;
+}
+.padding {
+    display: none;
+}
+.link {
+    display: none;
+}
+.lin {
+    font-size: 20px;
+}
+.burgerlink{
+    display: block;
+}
+.bigger {
+    font-size: 20px;
+}
+.burgericon {
+    width: 10px;
+    height: 10px;
+}
+.burgertbtn{
+    background-color: #602ba6 !important;
+    border: none !important;
+}
+.bigger2 {
+    font-size: larger;
+}
+.nav1 {
+    height: 16px;
+}
+.burgar {
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+}
+}
